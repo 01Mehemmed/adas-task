@@ -1,0 +1,253 @@
+.about_Links {
+    margin-bottom: 6rem;
+}
+
+.about__Link {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.car_sale {
+    display: flex;
+    justify-content: space-between;
+}
+
+.car_Texts {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.car_about {
+    max-width: 47rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 3.5rem;
+}
+
+.car_about h2 {
+    font-size: 4.5rem;
+    font-weight: 400;
+    color: var(--color-yellow);
+}
+
+.car_about h5 {
+    font-size: 2.4rem;
+    font-weight: 400;
+    color: var(--color-white);
+}
+
+.car_about p {
+    font-size: 1.6rem;
+    color: var(--color-white);
+}
+
+.car_abouts table {
+    color: var(--color-white);
+    font-size: 1.6rem;
+    width: 35rem;
+}
+
+.car_abouts table th {
+    font-weight: 600;
+    text-align: left;
+}
+
+.car_abouts table td {
+    font-weight: 400;
+    text-align: center;
+}
+
+.car_abouts table tr {
+    height: 4rem;
+    text-align: left;
+}
+
+.car_imgs_number {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem
+}
+
+
+.slider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.slide_img {
+    max-width: 57rem;
+    width: 100%;
+}
+
+.slide_btn a {
+    background-color: var(--color-yellow);
+    padding: 1rem 1.5rem;
+    border-radius: 50%;
+    font-size: 2.5rem;
+    color: var(--color-black);
+    position: absolute;
+}
+
+.left {
+    left: -2rem;
+}
+
+.right {
+    right: -2rem;
+}
+
+.other__imgs {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.img_box {
+    max-width: 17rem;
+    width: 100%;
+    height: 12rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.filter {
+    opacity: 0.4;
+    position: relative;
+    z-index: -1;
+}
+
+.filter a {
+    color: var(--color-white);
+    font-size: 4.5rem;
+    position: absolute;
+    z-index: 2;
+    display: block;
+    left: 25%;
+    top: 20%;
+}
+
+.numbers {
+    margin-top: 3rem;
+}
+
+.numbers ul {
+    display: flex;
+    gap: 5rem;
+}
+
+.numbers ul li i {
+    font-size: 2.5rem;
+    color: var(--color-white);
+}
+
+.numbers ul li a {
+    font-size: 1.6rem;
+    color: var(--color-white);
+}
+
+.numbers ul li:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+
+.col-sm-box{
+    margin-top: 3rem;
+}
+
+.col-sm-box ul {
+    display: flex;
+    gap: 5rem;
+}
+
+.col-sm-box ul li i {
+    font-size: 2.5rem;
+    color: var(--color-white);
+}
+
+.col-sm-box ul li a {
+    font-size: 1.6rem;
+    color: var(--color-white);
+}
+
+.col-sm-box ul li:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.col-sm-box {
+    display: none;
+}
+
+
+@media screen and (max-width:32rem) {
+
+    .main__Link,
+    .arrow_link {
+        display: none;
+    }
+
+    .car_sale {
+        flex-direction: column;
+    }
+
+    .about_Links {
+        margin-bottom: 3rem;
+    }
+
+    .car_imgs_number {
+        order: -1;
+        margin-bottom: 3rem;
+    }
+
+    .slide_btn {
+        display: none;
+    }
+
+    .other__imgs .img_box {
+        width: 8.3rem;
+        height: 5.8rem;
+    }
+
+    .img_box img{
+        object-fit: contain;
+    }
+
+    .filter a {
+        font-size: 2.2rem;
+    }
+
+    .numbers {
+        display: none;
+    }
+
+    .col-sm-box {
+        display: block;
+    }
+
+    .car_about h2 {
+        font-size: 2.2rem;
+    }
+
+    .car_about h5 {
+        font-size: 2rem;
+    }
+
+    .car_abouts table {
+        width: 30rem;
+    }
+}

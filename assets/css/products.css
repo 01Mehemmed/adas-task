@@ -1,0 +1,50 @@
+.product__Cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(27rem, 1fr));
+    margin-bottom: 15rem;
+}
+
+.product_imgs_box {
+    max-width: 27rem;
+    height: 24.6rem;
+}
+
+.product_imgs_box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.products__Card h5 {
+    color: var(--color-white);
+    font-size: 3.2rem;
+    line-height: 3;
+}
+
+.products__Card h6 {
+    color: var(--color-white);
+    font-size: 2.4rem;
+    line-height: 2.5;
+}
+
+.products__Card p {
+    max-width: 27rem;
+    height: 7.7rem;
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: var(--color-white);
+    /* text-overflow: ellipsis; */
+}
+
+/* Mobile */ 
+@media screen and (max-width:32rem) {
+    .col_sm {
+        display: none;
+    }
+
+    .product__Cards {
+        margin-bottom: 0;
+        gap: 6rem;
+    }
+}

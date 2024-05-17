@@ -1,0 +1,812 @@
+/* Banner */
+
+.banner__all {
+    display: flex;
+    position: relative;
+    margin-bottom: 30rem;
+}
+
+.banner__all h1 {
+    color: var(--color-white);
+    font-size: 12rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: left;
+    position: relative;
+    max-width: 74.6rem;
+    width: 100%;
+
+}
+
+.banner__Texts p {
+    max-width: 37rem;
+    font-size: 1.6rem;
+    color: var(--color-white);
+    margin-bottom: 2rem;
+}
+
+.banner_pharagraph_links a:nth-child(2) {
+    color: var(--color-white);
+    font-size: 3.2rem;
+    margin-right: 5rem;
+}
+
+.banner_pharagraph_links a:nth-child(3) {
+    background-color: var(--color-yellow);
+    color: var(--color-black);
+    padding: 1rem 1.5rem;
+    border-radius: 50%;
+    font-size: 2.5rem;
+}
+
+.clean__Banner {
+    position: absolute;
+    left: 50rem;
+    z-index: -1;
+    width: 67rem;
+    height: 89rem;
+    overflow: hidden;
+    top: -13.7rem;
+}
+
+.clean__Banner img {
+    filter: grayscale(100%);
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+/* Banner End */
+
+/* yellow Lined */
+
+.Card__Container {
+    background-color: var(--color-yellow);
+    height: 18.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20.5rem;
+    margin-bottom: 10rem;
+}
+
+.card {
+    text-align: center;
+}
+
+.card h4 {
+    font-weight: 400;
+    font-size: 7rem;
+}
+
+.card h5 {
+    font-size: 3.9rem;
+    font-weight: 500;
+}
+
+/* yellow Lined End */
+
+/* About */
+
+.about__Container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 10rem;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    flex: 0.8;
+}
+
+.left .Left_Header {
+    display: flex;
+    align-self: center;
+}
+
+.Left_Header h3 {
+    font-size: 12rem;
+    color: var(--color-yellow);
+    font-weight: 500;
+}
+
+.left__Pharagraps {
+    display: flex;
+    flex-direction: column;
+    align-self: end;
+}
+
+.left__Pharagraps p {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--color-white);
+    max-width: 47rem;
+    margin-bottom: 2rem;
+}
+
+.links a:nth-child(1) {
+    color: #fff;
+    font-size: 3.2rem;
+    font-weight: 500;
+}
+
+.links a:nth-child(2) {
+    display: inline-block;
+    font-size: 25px;
+    color: #fff;
+    margin-left: 5rem;
+    transform: rotate(40deg);
+}
+
+.right {
+    width: 60.5rem;
+    height: 49.6rem
+}
+
+.right img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+/* About End */
+
+/* Services */
+.services__Header h3 {
+    font-size: 12rem;
+    color: var(--color-yellow);
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.services__Cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 10rem;
+}
+
+.col-sm {
+    display: none;
+}
+
+.services_img__1 {
+    max-width: 30rem;
+    height: 31.6rem;
+    opacity: 0.3;
+}
+
+.services_img__2 {
+    width: 37rem;
+    height: 39rem;
+    position: relative;
+}
+
+.services__Card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.height {
+    height: 46rem;
+}
+
+.btns__Arrow a {
+    background-color: var(--color-yellow);
+    padding: 1.5rem 2rem;
+    border-radius: 50%;
+    font-size: 2.5rem;
+    color: var(--color-black);
+}
+
+.services__Card>h4 {
+    color: #B3B3B3;
+    font-size: 2.9rem;
+    text-align: center;
+    font-weight: 700;
+    line-height: 2.8;
+}
+
+.card_link_text {
+    position: absolute;
+    bottom: 0;
+    padding: 1rem;
+}
+
+.card_link_text h5 {
+    font-size: 3.2rem;
+    color: var(--color-white);
+    line-height: 2.9;
+}
+
+.card_link_text p {
+    font-size: 1.6rem;
+    color: var(--color-white);
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+
+.cards__Links a {
+    font-size: 3.3rem;
+    color: var(--color-white);
+}
+
+.cards__Links a i {
+    transform: rotate(40deg);
+    margin-left: 5rem;
+}
+
+/* Services End */
+
+/* Products */
+
+.products__Header h3 {
+    font-size: 12rem;
+    color: var(--color-yellow);
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 5rem;
+}
+
+.products__Links {
+    display: flex;
+    justify-content: end;
+    gap: 5rem;
+    margin-bottom: 5rem;
+}
+
+.products__Links a {
+    color: var(--color-white);
+    font-size: 3.2rem
+}
+
+.products__Links a>i {
+    transform: rotate(220deg);
+}
+
+.product__Cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(27rem, 1fr));
+    margin-bottom: 15rem;
+}
+
+.product_imgs_box {
+    max-width: 27rem;
+    height: 24.6rem;
+}
+
+.product_imgs_box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.products__Card h5 {
+    color: var(--color-white);
+    font-size: 3.2rem;
+    line-height: 3;
+}
+
+.products__Card h6 {
+    color: var(--color-white);
+    font-size: 2.4rem;
+    line-height: 2.5;
+}
+
+.products__Card p {
+    max-width: 27rem;
+    height: 7.7rem;
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: var(--color-white);
+}
+
+.products__Links_col {
+    display: none;
+}
+
+/* Products End */
+
+/* Cars */
+
+.cars__Header h3 {
+    font-size: 12rem;
+    color: var(--color-yellow);
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 5rem;
+    text-align: center;
+}
+
+.cars__Cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(37rem, 1fr));
+    margin-bottom: 15rem;
+}
+
+.cars_imgs_box {
+    max-width: 37rem;
+    height: 26.6rem;
+}
+
+.cars_imgs_box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+/* Cars End*/
+
+/* Blog */
+
+.Blog__Section {
+    background-color: var(--color-yellow);
+    max-width: 100%;
+    padding: 2rem 0;
+    margin-bottom: 16rem;
+}
+
+.blog__Header h3 {
+    font-size: 12rem;
+    color: var(--color-black);
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 5rem;
+}
+
+.blogs {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.blog__Box {
+    display: flex;
+    gap: 7rem;
+}
+
+.btn__blog a {
+    font-size: 2.6rem;
+    font-weight: 700;
+    color: var(--color-black);
+}
+
+.blog__img {
+    max-width: 40rem;
+    width: 100%;
+    height: 28.6rem;
+}
+
+.blog__img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    object-position: 50% 77%;
+    filter: saturate(60%);
+}
+
+.blog__Texts {
+    max-width: 66rem;
+}
+
+.blog__Texts h4 {
+    font-size: 4.5rem;
+    font-weight: 500;
+    color: var(--color-black);
+}
+
+.blog__Texts p {
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+.blog__Links {
+    display: flex;
+    line-height: 5;
+    gap: 3.6rem
+}
+
+.blog__Links a {
+    font-size: 3.2rem;
+    color: var(--color-black);
+}
+
+.blog__Links a i {
+    transform: rotate(40deg);
+}
+
+.col_Menu_btns {
+    display: none;
+}
+
+/* Blog End */
+
+/* Contact */
+
+.contact__Header h3 {
+    font-size: 12rem;
+    color: var(--color-yellow);
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 5rem;
+    text-align: center;
+}
+
+.conatct__All {
+    display: flex;
+    gap: 13rem;
+}
+
+.contact__Mail_location ul li {
+    display: flex;
+    max-width: 32rem;
+    gap: 5rem;
+    margin-bottom: 5rem;
+}
+
+.contact__Mail_location ul li i {
+    font-size: 2.3rem;
+    color: var(--color-yellow);
+}
+
+.contact__Mail_location ul li p {
+    color: var(--color-white);
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+.contact__Phone ul {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.contact__Phone ul li {
+    display: flex;
+    gap: 5rem;
+}
+
+.contact__Phone ul li i {
+    font-size: 2.3rem;
+    color: var(--color-yellow);
+}
+
+.contact__Phone ul li p {
+    color: var(--color-white);
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+.social_Media {
+    display: flex;
+    gap: 4.8rem;
+}
+
+.social_Media a {
+    font-size: 2.3rem;
+    color: var(--color-yellow);
+}
+
+/* Contact End */
+
+/* Map */
+
+.Map__Container {
+    max-width: 100%;
+    height: 69rem;
+}
+
+
+.Map__Container iframe {
+    width: 100%;
+    height: 100%;
+}
+
+/* Map End*/
+
+
+/* Mobile Responsive */
+
+@media screen and (max-width:32rem) {
+
+    /* Banner Mobile */
+
+    .banner__all {
+        margin-bottom: 7rem;
+    }
+
+    .banner__Texts h1 {
+        font-size: clamp(2.75rem, 1.3929rem + 6.7857vw, 7.5rem);
+    }
+
+    .banner__Texts p {
+        font-weight: 400;
+    }
+
+    .banner_pharagraph_links a:nth-child(2) {
+        font-size: 2.4rem;
+    }
+
+    .banner_pharagraph_links a:nth-child(3) {
+        padding: 0.5rem 1rem;
+        font-size: 2rem;
+    }
+
+    .clean__Banner {
+        left: 12rem;
+        width: 18rem;
+        height: 47rem;
+    }
+
+
+    /* Line Mobile */
+
+    .Card__Container {
+        flex-wrap: wrap;
+        flex-direction: column;
+        gap: 5rem;
+        row-gap: 3rem;
+        padding: 1rem 0;
+    }
+
+    .card h4 {
+        font-size: 2.9rem;
+    }
+
+    .card h5 {
+        font-size: 1.6rem;
+    }
+
+    .order {
+        order: 1;
+    }
+
+    /* About Mobile */
+
+    .about__Container {
+        flex-direction: column;
+        padding: 0 1.5rem;
+        align-items: center;
+        gap: 5rem;
+    }
+
+    .left .Left_Header {
+        align-self: start;
+    }
+
+    .links a:nth-child(1),
+    .links a:nth-child(2) {
+        font-size: 1.8rem;
+    }
+
+    .links a:nth-child(2) {
+        margin-left: 1rem;
+    }
+
+    .right {
+        max-width: 32rem;
+        height: 21rem;
+    }
+
+    /* Services Mobile */
+
+    .btns__Arrow {
+        display: none;
+    }
+
+    .services__Header {
+        padding-left: 2rem;
+    }
+
+    .services__Header h3 {
+        text-align: left;
+        margin-bottom: 2rem;
+    }
+
+    .services__Card .col {
+        width: 21rem;
+        height: 22.1rem;
+        opacity: 0.9;
+    }
+
+    .services__Card h4 {
+        display: none;
+    }
+
+    .col-sm {
+        display: block;
+    }
+
+    .card_link_text {
+        position: static;
+        padding: 0;
+    }
+
+    .card_link_text h5 {
+        font-size: 2.2rem;
+    }
+
+    .height {
+        height: 49rem;
+    }
+
+    .services__Cards {
+        align-items: center;
+        width: 32rem;
+        gap: 2rem;
+        height: 54rem;
+        overflow-x: scroll;
+        padding: 2rem;
+    }
+
+    .cards__Links a {
+        font-size: 1.8rem;
+    }
+
+    .cards__Links a i {
+        margin-left: 3rem;
+    }
+
+    /* Products Mobile*/
+
+    .products__Links {
+        display: none;
+    }
+
+    .product__Cards {
+        display: flex;
+        overflow-x: scroll;
+        width: 30rem;
+        gap: 2rem;
+    }
+
+    .product_imgs_box {
+        width: 20rem;
+    }
+
+    .product__Cards h5 {
+        font-size: 2.2rem;
+    }
+
+    .product__Cards h6 {
+        font-size: 2rem;
+    }
+
+    .products__Links_col {
+        display: flex;
+        gap: 1rem;
+        margin-bottom: 5rem;
+    }
+
+    .products__Links_col a {
+        color: var(--color-white);
+        font-size: 1.8rem;
+        margin-top: 3rem;
+    }
+
+    .products__Links_col a>i {
+        transform: rotate(220deg);
+    }
+
+
+    /*  Cars Mobile */
+
+    .cars__Header h3 {
+        text-align: left;
+    }
+
+    .cars__Cards {
+        display: flex;
+        overflow-x: scroll;
+        width: 30rem;
+        gap: 2rem;
+    }
+
+    .cars_imgs_box {
+        width: 20rem;
+        height: auto;
+    }
+
+    .product__Cards h5 {
+        font-size: 2.2rem;
+    }
+
+    .product__Cards h6 {
+        font-size: 2rem;
+    }
+
+    .products__Links_col {
+        display: flex;
+        gap: 1rem;
+        margin-bottom: 5rem;
+    }
+
+    .products__Links_col a {
+        color: var(--color-white);
+        font-size: 1.8rem;
+        margin-top: 3rem;
+    }
+
+    .products__Links_col a>i {
+        transform: rotate(220deg);
+    }
+
+    /* Blog Mobile */
+
+    .btn__blog {
+        display: none;
+    }
+
+    .blogs {
+        flex-direction: column;
+    }
+
+    .blog__Box {
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    .blog__img {
+        height: 19rem;
+    }
+
+    .blog__Texts h4 {
+        font-size: 2.2rem;
+    }
+
+    .blog__Links {
+        gap: 1.6rem;
+    }
+
+    .blog__Links a {
+        font-size: 1.8rem;
+    }
+
+    .col_Menu_btns {
+        display: flex;
+        gap: 1rem;
+    }
+
+    .col_Menu_btns a {
+        background-color: var(--color-white);
+        display: block;
+        border-radius: 50%;
+        padding: 0.6rem;
+    }
+
+    .col_Menu_btns a:nth-child(1) {
+        background-color: var(--color-black);
+    }
+
+
+    /* Contact Mobile */
+
+    .contact__Header h3 {
+        text-align: left;
+    }
+
+    .conatct__All {
+        flex-direction: column;
+        align-items: start;
+        gap: 4rem;
+    }
+
+    .social_Media {
+        margin-bottom: 7rem;
+    }
+
+    /* Map Mobile */
+    .Map__Container {
+        height: 40rem;
+    }
+}

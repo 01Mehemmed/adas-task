@@ -1,0 +1,148 @@
+.text__Container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10rem;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.about_Texts {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    color: var(--color-white);
+    font-size: 1.6rem;
+    max-width: 47rem;
+    margin-right: 10rem;
+}
+
+.about_Links {
+    margin-bottom: 6rem;
+}
+
+.about__Link {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+.about_Texts h3 {
+    color: var(--color-yellow);
+    font-size: 4.5rem;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.about_image_box {
+    width: 63.6rem;
+    height: 46rem;
+}
+
+
+.about_Texts_last {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    color: var(--color-white);
+    font-size: 1.6rem;
+    max-width: 47rem;
+    margin-left: 10rem;
+    text-transform: uppercase;
+}
+
+.about_Texts_last h3 {
+    color: var(--color-yellow);
+    font-size: 4.5rem;
+    font-weight: 500;
+}
+
+.service_links {
+    margin-top: 2rem;
+}
+
+.service_links a {
+    color: var(--color-white);
+    font-size: 3.2rem;
+    margin-right: 3rem;
+    text-transform: capitalize;
+}
+
+.service_links a .arrow {
+    transform: rotate(40deg);
+    font-size: 3.2rem;
+}
+
+
+/* Mobile */
+
+@media screen and (max-width:32rem) {
+
+    .main__Link , .arrow_link {
+        display: none;
+    }
+
+    .about_Links {
+        margin-bottom: 3rem;
+    }
+
+    .about_image_box {
+        height: auto;
+    }
+    
+    .text__Container {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 01rem;
+        gap: 3rem;
+    }
+
+    .about_Texts {
+        max-width: 29rem;
+        margin-left: 0;
+        margin-bottom: 4rem;
+        margin-right: 0;
+    }
+
+    .about_Texts h3 {
+        font-size: 2rem !important;
+    }
+
+    .about_Texts p:nth-child(2),
+    .about_Texts_last p:nth-child(2) {
+        display: none;
+    }
+
+    .about_Texts_last {
+        margin-left: 0;
+    }
+
+    .about_image_box {
+        width: 32rem;
+        order: 1;
+    }
+
+    .about_Texts_last {
+        margin-right: 0;
+        max-width: 28rem;
+    }
+
+    .about_image_box {
+        order: -1;
+        width: 32rem;
+    }
+
+    .about_image_box img {
+        object-fit: contain;
+    }
+
+    .service_links a,
+    .service_links a .arrow{
+        font-size: 1.8rem;
+    }
+}

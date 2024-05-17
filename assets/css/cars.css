@@ -1,0 +1,78 @@
+.cars__Cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(37rem, 1fr));
+    margin-bottom: 6rem;
+}
+
+.cars_imgs_box {
+    max-width: 37rem;
+    height: 26.6rem;
+}
+
+.cars_imgs_box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.product__Cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(27rem, 1fr));
+    margin-bottom: 15rem;
+}
+
+.products__Card h5 {
+    color: var(--color-white);
+    font-size: 3.2rem;
+    line-height: 3;
+    font-weight: 400;
+}
+
+.products__Card h6 {
+    color: var(--color-white);
+    font-size: 2.4rem;
+    line-height: 2.5;
+    font-weight: 400;
+}
+
+.products__Card p {
+    max-width: 27rem;
+    height: 7.7rem;
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: var(--color-white);
+    /* text-overflow: ellipsis; */
+}
+
+
+/* Mobile */ 
+
+@media screen and (max-width:32rem) {
+    .col-sm {
+        display: none;
+    }
+    .cars__Cards {
+        margin-bottom: 0;
+    }
+
+    .products__Card {
+        max-width: 28rem;
+    }
+
+    .cars_imgs_box {
+        width: 28rem;
+    }
+
+    .cars_imgs_box img {
+        object-fit: contain;
+    }
+
+    .products__Card h5 {
+        font-size: 2.2rem;
+    }
+
+    .products__Card h6 {
+        font-size: 2rem;
+    }
+}

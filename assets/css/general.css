@@ -1,0 +1,301 @@
+/* Header */
+
+.head__Menu {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3.4rem;
+    position: relative;
+    z-index: 3;
+}
+
+.clean__logo {
+    width: 16.5rem;
+    height: 10rem;
+}
+
+.clean__logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.Menu {
+    width: 17rem;
+}
+
+.Menu ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Menu ul a {
+    font-size: 1.6rem;
+}
+
+.Menu ul li .language_links a {
+    margin-right: 2.5rem;
+    color: var(--color-white);
+}
+
+.Menu ul li>a {
+    font-size: 2.5rem;
+    color: var(--color-white);
+}
+
+/* Header End */
+
+/* Footer */
+
+.footer_All {
+    display: flex;
+    justify-content: space-between;
+    padding: 14rem 0;
+}
+
+.logo_Box {
+    max-width: 15.2rem;
+    height: 9.2rem;
+}
+
+.logo_Box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.footer__Menu {
+    display: flex;
+    justify-content: space-between;
+    gap: 19rem;
+}
+
+.Menu_footer ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    color: var(--color-white);
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+.Menu_footer ul li a {
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: var(--color-white);
+}
+
+.icons_Social {
+    display: flex;
+    gap: 2rem
+}
+
+.icons_Social a i {
+    font-size: 3rem;
+}
+
+/* Footer End */
+
+/* End Line */
+
+.end_Line {
+    background-color: var(--color-yellow);
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.7rem 0;
+}
+
+.Line_Texts {
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+
+.Line_Texts a {
+    color: var(--color-black);
+}
+
+
+
+/* Header Links */
+
+.about_Links {
+    display: flex;
+    color: var(--color-white);
+    margin-top: 10rem;
+    gap: 3rem;
+    margin-bottom: 3rem;
+}
+
+.main__Link {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+.about_Links a
+ {
+    font-size: 1.6rem;
+}
+
+.main__Link a {
+    color: var(--color-white);
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+.about__Link a {
+    color: var(--color-yellow);
+    font-weight: 600;
+}
+
+/* About Links End*/
+
+/* Banner */
+
+.banner_Clean {
+    width: 100%;
+    height: 33.8rem;
+}
+
+.about_Text_Container {
+    position: relative;
+    margin-bottom: 16rem;
+}
+
+.banner_Clean img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    filter: grayscale(100%);
+    opacity: 0.8;
+}
+
+.about__Header_text {
+    position: absolute;
+    left: 17rem;
+    top: 27rem;
+}
+
+.about__Header_text h2 {
+    font-size: 12rem;
+    font-weight: 500;
+    color: var(--color-white);
+}
+
+/* Banner End */
+
+
+
+
+/* Mobile */
+
+@media screen and (max-width:32rem) {
+    /* Header Mobile */
+
+    .container {
+        width: 28rem;
+        margin: 0 auto;
+    }
+
+    h3 {
+        font-size: 4.4rem !important;
+    }
+
+    .clean__logo {
+        width: 10rem;
+    }
+
+    .head__Menu {
+        width: 28.7rem;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+    }
+
+    .clean__logo {
+        width: 10rem
+    }
+
+    .clean__logo img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        display: block;
+        object-position: 50% 50%;
+    }
+
+    .Menu ul {
+        justify-content: end;
+    }
+
+
+    .Menu ul li:first-child {
+        display: none;
+    }
+
+    .Menu ul li a {
+        font-size: 2rem;
+    }
+
+    /* Footer Mobile */
+
+    .footer_All {
+        padding: 10rem 0;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .footer__Menu {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .logo_Box {
+        width: 13rem;
+    }
+
+    .logo_Box img {
+        object-fit: contain;
+    }
+
+    .footer__Menu {
+        flex-direction: column;
+    }
+
+    .col-m {
+        margin-bottom: 3rem;
+    }
+
+    /* End Line Mobile */
+
+    .Line_Texts p {
+        font-size: 1.2rem;
+    }
+
+    /* Header Lİnks Mobile */
+    .main__Link a {
+        display: none;
+    }
+
+    .about_Links {
+        margin-top: 3rem;
+    }
+
+    /* Haeder Banner Mobile */
+    
+    .about__Header_text {
+        left: 2rem;
+        top: 31rem;
+    }
+
+    .about__Header_text h2 {
+        font-size: 4.4rem;
+    }
+}
